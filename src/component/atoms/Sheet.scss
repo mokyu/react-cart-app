@@ -1,0 +1,16 @@
+@import "src/style/variables";
+
+.sheet {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.sheet__content {
+  padding: 16px;
+}
+
+@media (max-width: $phone-threshold-width) {
+  .sheet {
+    max-width: 500px;
+  }
+}

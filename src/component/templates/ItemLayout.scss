@@ -1,0 +1,15 @@
+@import "src/style/variables";
+
+.item-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:24px;
+  row-gap:16px;
+  justify-content: center;
+}
+
+@media (max-width: $itemlist-column-shift-width) {
+  .item-layout {
+    grid-template-columns: 1fr;
+  }
+}

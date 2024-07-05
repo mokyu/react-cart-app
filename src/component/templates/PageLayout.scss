@@ -1,0 +1,25 @@
+@import "src/style/variables";
+
+.page-layout__cart-fab {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%) translateX(600px);
+  bottom: 64px;
+}
+
+@media (max-width: $itemlist-column-shift-width) {
+
+  .page-layout__cart-fab {
+    right: 100px;
+    transform: unset;
+    left: unset;
+  }
+}
+
+@media (max-width: $phone-threshold-width) {
+  .page-layout__cart-fab {
+    left: 50%;
+    right: unset;
+    transform: translateX(-50%) translateX(180px) translateY(-64px);
+  }
+}

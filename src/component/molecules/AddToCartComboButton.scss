@@ -1,0 +1,20 @@
+.add-to-cart-combo-button__wrapper {
+  display: inline-flex;
+}
+
+.add-to-cart-combo-button__wrapper__input {
+  width: 48px;
+  text-align: right;
+}
+
+.add-to-cart-combo-button__wrapper__input > input {
+  text-align: right;
+  border-right: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+}
+
+.add-to-cart-combo-button__wrapper__button > button {
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+}
