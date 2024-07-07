@@ -8,7 +8,7 @@ type InputProps = {
     onChange?: React.ChangeEventHandler<HTMLInputElement>
 }
 
-function Input(props: InputProps) {
+function Input(props: InputProps = {type: "text"}) {
     return (
         <input
             className="input"
@@ -18,10 +18,6 @@ function Input(props: InputProps) {
             onChange={props.onChange}
         />
     );
-}
-
-Input.defaultProps = {
-    type: 'text',
 }
 
 export default Input;

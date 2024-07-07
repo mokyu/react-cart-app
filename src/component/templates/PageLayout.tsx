@@ -3,7 +3,7 @@ import './PageLayout.scss';
 
 type PageLayoutProps = {
     body: ReactNode,
-    fab: ReactNode
+    fab: ReactNode,
 }
 
 function PageLayout(props: PageLayoutProps) {

@@ -12,8 +12,4 @@ function Button(props: InputProps) {
     );
 }
 
-Button.defaultProps = {
-    type: 'text',
-}
-
 export default Button;

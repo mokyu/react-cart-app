@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import './Sheet.scss';
 
 type SheetProps = {
-    children?: JSX.Element
+    children?: ReactNode
 }
 
 function Sheet(props: SheetProps) {

@@ -24,3 +24,20 @@
   bottom: -8px;
   pointer-events: none;
 }
+
+.cart-fab__wrapper--attention-grabber {
+  animation: scaleUpDown 0.2s ease-in-out forwards;
+}
+
+@keyframes scaleUpDown {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

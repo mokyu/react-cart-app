@@ -1,0 +1,29 @@
+.cart-list-item {
+  min-height: 32px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.cart-list-item > td {
+
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cart-list-item__count {
+  min-width: 48px;
+}
+
+.cart-list-item__count input {
+  width: 128px;
+  text-align: right;
+}
+
+.cart-list-item__total {
+  width: 1px;
+  text-align: right;
+}
+
+.cart-list-item__remove {
+  width: 1px;
+}
